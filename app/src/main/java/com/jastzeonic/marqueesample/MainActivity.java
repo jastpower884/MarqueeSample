@@ -21,7 +21,8 @@ public class MainActivity extends AppCompatActivity {
         listView = (ListView) findViewById(R.id.list_view);
 
         String[] items = {
-                "Smooth The RecyclerView with animator"
+                "Smooth The RecyclerView with animator",
+                "The ScrollView with animator"
 
         };
 
@@ -37,6 +38,10 @@ public class MainActivity extends AppCompatActivity {
                     case 0:
 
                         intent = new Intent(MainActivity.this, SmoothAnimationActivity.class);
+                        startActivity(intent);
+                        break;
+                    case 1:
+                        intent = new Intent(MainActivity.this, ScrollViewAnimatorActivity.class);
                         startActivity(intent);
                         break;
 

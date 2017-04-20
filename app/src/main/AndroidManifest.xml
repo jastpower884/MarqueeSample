@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SmoothAnimationActivity"></activity>
+        <activity android:name=".SmoothAnimationActivity" />
+        <activity android:name=".ScrollViewAnimatorActivity"></activity>
     </application>
 
 </manifest>
